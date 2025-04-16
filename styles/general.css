@@ -1,0 +1,29 @@
+p
+{
+    margin-top: 0;
+    margin-bottom: 0px;
+   
+}
+body
+{
+    /* This style below will be inherited */
+    margin: 0;
+    padding-top: 80px;
+    padding-left: 96px;
+    padding-right: 24px;
+    background-color: rgb(248, 248, 248);
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.video-link
+ {
+    text-decoration: none; /* Removes the underline */
+    color: black; /* Sets the text color, change to your desired color */
+}
+  
+
+@media (min-width: 1200px) {
+    body {
+        margin-left: 200px; /* Matches the wider sidebar for larger screens */
+    }
+}
